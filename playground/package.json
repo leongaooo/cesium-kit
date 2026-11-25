@@ -13,7 +13,7 @@
     "cesium": "^1.133.1",
     "cesium-kit": "file:../cesium-kit-0.1.6.tgz",
     "globex": "file:../globex-0.1.1.tgz",
-    "vue": "^3.5.21"
+    "vue": "^3.5.46"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.1",
