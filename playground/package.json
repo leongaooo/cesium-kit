@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@types/cesium": "^1.67.14",
-    "cesium": "^1.133.1",
+    "@types/cesium": "^1.70.4",
+    "cesium": "^1.147.0",
     "cesium-kit": "file:../cesium-kit-0.1.6.tgz",
     "globex": "file:../globex-0.1.1.tgz",
     "vue": "^3.5.21"
