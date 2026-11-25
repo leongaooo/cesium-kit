@@ -1,0 +1,19 @@
+# 统一行尾，避免 Windows / macOS 之间反复产生整文件 diff
+* text=auto eol=lf
+
+# 二进制文件不参与行尾转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.zip binary
+*.pdf binary
+
+# 锁文件属于生成物，折叠 diff 噪音
+package-lock.json linguist-generated=true -diff
+pnpm-lock.yaml linguist-generated=true -diff
