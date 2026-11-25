@@ -1,0 +1,54 @@
+name: Bug 报告
+description: 报告一个可复现的缺陷
+title: "[bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。为了让问题能复现，请尽量补全下面的信息。
+  - type: input
+    id: version
+    attributes:
+      label: cesium-kit 版本
+      placeholder: 0.1.10
+    validations:
+      required: true
+  - type: input
+    id: cesium
+    attributes:
+      label: Cesium 版本
+      placeholder: 1.120.0
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 初始化 Viewer
+        2. 调用 ...
+        3. 看到 ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望行为
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为
+    validations:
+      required: true
+  - type: textarea
+    id: code
+    attributes:
+      label: 最小复现代码
+      render: typescript
+  - type: input
+    id: env
+    attributes:
+      label: 运行环境
+      placeholder: Chrome 130 / Windows 11 / Node 20

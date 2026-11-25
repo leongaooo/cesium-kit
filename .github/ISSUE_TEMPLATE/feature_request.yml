@@ -1,0 +1,24 @@
+name: 功能建议
+description: 提出一个新组件或新能力
+title: "[feat] "
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      description: 你在什么业务里需要它，现在是怎么绕过的
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 期望的 API 形态
+      description: 直接写出你希望怎么调用，函数签名或用法片段都可以
+      render: typescript
+  - type: checkboxes
+    id: contribute
+    attributes:
+      label: 参与意愿
+      options:
+        - label: 我可以提交实现 PR
+        - label: 我可以补充文档或示例
