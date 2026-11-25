@@ -18,7 +18,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/tsconfig": "^0.8.1",
-    "typescript": "~5.8.3",
+    "typescript": "~7.0.2",
     "vite": "npm:rolldown-vite@7.1.12",
     "vite-plugin-cesium": "^1.2.23",
     "vue-tsc": "^3.0.7"
